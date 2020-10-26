@@ -1,10 +1,8 @@
-# Chi sono, cosa cerco
+# Le esigenze di un Consorzio
 
-Ciao, mi chiamo Luca, lavoro in un Consorzio di Bonifica e penso sia utile cercare il confronto con altre realtà simili alla mia, per un fruttuoso scambio di esperienze.
+Software:
 
-In queste pagine che vorrebbero essere sintetiche ed essenziali cerco di condividere la mia esperienza in merito all'uso di software OS nell'ambito di un Consorzio e le varie soluzioni che ho adottoto o implementato per le relative problematiche operative.
+- di produttività individuale, ovvero per la produzione di elaborati scritti o grafici;
+- per la gestione di processi che implicano la partecipazione di piu' soggetti (es oltre i software di produttività individuale, tipo word processor, foglio elettronico e quant'altro);
+- per la fornitura alla struttura di servizi per collaborazione e condivisione anche con soggetti esterni;
 
-Massima apertura al contributo di chiunque vorrà suggerire ulteriori pratiche ritenute valide e consigliabili.
-Un salutone
-
-*Luca Buoncristiani*
