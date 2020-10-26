@@ -1,2 +1,2 @@
 # buoncri.github.io
-Soluzioni Software Open Source per Consorzi di Bonifica
+Idee ed esperienze su soluzioni Software Open Source per Consorzi di Bonifica
