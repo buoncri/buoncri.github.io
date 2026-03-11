@@ -1,9 +1,17 @@
-# About
+---
+layout: page
+title: About
+permalink: /about/
+---
 
-Ciao, mi chiamo Luca, lavoro in un Consorzio di Bonifica e penso  sia utile cercare il confronto con altre realt√† simili alla mia, per un  fruttuoso scambio di esperienze.
+<img src="https://github.com/buoncri.png" alt="Luca Buoncristiani" style="border-radius: 50%; width: 150px; float: left; margin-right: 20px; margin-bottom: 20px;">
 
-In queste pagine che vorrebbero essere sintetiche ed essenziali cerco di condividere la mia esperienza in merito all‚Äôuso di software Open Source nell‚Äôambito di un Consorzio e le varie soluzioni che ho adottoto o implementato per le relative problematiche operative.
+Ciao, mi chiamo Luca, lavoro in un Consorzio di Bonifica e penso sia utile cercare il confronto con altre realt‡ simili alla mia, per un fruttuoso scambio di esperienze.
 
-Massima apertura al contributo di chiunque vorr√† suggerire ulteriori pratiche ritenute valide e consigliabili o comunque controntarsi sulle varie oportunit√† e scelte. Un salutone
+In queste pagine, che vorrebbero essere sintetiche ed essenziali, cerco di condividere la mia esperienza in merito all'uso di software Open Source nell'ambito di un Consorzio e le varie soluzioni che ho adottato o implementato per le relative problematiche operative.
 
-*Luca Buoncristiani*
+Massima apertura al contributo di chiunque vorr‡ suggerire ulteriori pratiche ritenute valide e consigliabili o comunque confrontarsi sulle varie opportunit‡ e scelte. 
+
+Un salutone.
+
+<div style="clear: both;"></div>
