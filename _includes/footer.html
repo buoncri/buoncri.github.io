@@ -1,0 +1,19 @@
+﻿<footer class="site-footer h-card" style="padding: 40px 0; text-align: center;">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper">
+    <div style="margin-bottom: 15px;">
+      {%- include social.html -%}
+    </div>
+    <div style="font-size: 0.95rem; margin-bottom: 10px;">
+      {{- site.description | escape -}}
+    </div>
+    {%- if site.email -%}
+    <div style="font-size: 0.85rem; margin-bottom: 20px;">
+      <a class="u-email" href="mailto:{{ site.email }}" style="word-break: break-all;">{{ site.email }}</a>
+    </div>
+    {%- endif -%}
+    <div style="font-size: 0.8rem; opacity: 0.7;">
+      &copy; {{ site.time | date: "%Y" }} {{ site.title | escape }}.
+    </div>
+  </div>
+</footer>
