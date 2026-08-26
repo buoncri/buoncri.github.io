@@ -29,6 +29,4 @@ Benvenuto nel mio spazio personale: qui condivido idee ed esperienze su soluzion
 
 ## Contributi open-source
 
-Raccolta dei miei contributi open-source — da [django-helpdesk](/contrib/#django-helpdesk) ad altri progetti della community.
-
 > I 13 post dettagliati su django-helpdesk sono ora in [/contrib/#django-helpdesk](/contrib/#django-helpdesk).
