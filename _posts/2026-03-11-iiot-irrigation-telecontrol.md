@@ -5,6 +5,10 @@ date: 2026-03-11 10:00:00 +0100
 categories: iiot open-source docker irrigation bim
 ---
 
+<p align="center">
+  <img src="/images/logo_iiot_moana.jpg" alt="IIoT Irrigation Telecontrol - Logo progetto Moana" width="75%" />
+</p>
+
 Oggi ho pubblicato sul mio profilo GitHub il progetto [**iiot-irrigation-telecontrol**](https://github.com/buoncri/iiot-irrigation-telecontrol). Si tratta di un repository di orchestrazione per una piattaforma IIoT pensata per il telecontrollo di impianti idrici e di irrigazione industriale, interamente basata su **Docker Compose**.
 
 ### Di cosa si tratta?
