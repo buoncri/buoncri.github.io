@@ -27,28 +27,21 @@ Raccolta dei miei contributi pubblici su GitHub — PR, issue e discussioni a cu
 
 ## django-helpdesk {#django-helpdesk}
 
-Contributi al progetto open-source [django-helpdesk/django-helpdesk](https://github.com/django-helpdesk/django-helpdesk) — helpdesk/ticketing per Django. Ogni voce rimanda a un post dedicato con dettagli tecnici e link a GitHub.
+Contributi al progetto open-source [django-helpdesk/django-helpdesk](https://github.com/django-helpdesk/django-helpdesk) — helpdesk/ticketing per Django. I miei contributi sono consultabili direttamente su GitHub — dettaglio storico rimosso, vedi link sotto (nessun post locale).
 
-### 2026
-
-- [Fix: badge color per status/priority con stable id (PR #1371)]({% post_url 2026-08-06-fix-badge-color-stable-id %}) — colori ancorati a ID stabile, nuove settings `HELPDESK_TICKET_STATUS_CSS_CLASSES`.
-- [Feat: tutte le colonne ordinabili nel filtro sorting (PR #1370)]({% post_url 2026-08-05-expose-sortable-columns-ticket-list %}) — estende dropdown con `id`, `last_followup`, `due_date` e altri + fix annotation.
-- [Issue: Sorting dropdown per Last Followup e altre colonne (Issue #1369)]({% post_url 2026-08-05-sorting-dropdown-last-followup %}) — richiesta feature che ha portato alla PR #1370.
-- [Issue: Ticket riaperti usano template email errati (Issue #1367)]({% post_url 2026-08-04-reopened-tickets-email-templates %}) — bug aperto: fallback a `updated_*` per `REOPENED_STATUS`.
-- [Fix: rendering status ticket senza traduzioni (PR #1362)]({% post_url 2026-07-31-fix-ticket-status-rendering-translations %}) — risolve #1361.
-- [Issue: Badge grigi con locale non-inglese (Issue #1361)]({% post_url 2026-07-30-status-badge-colors-non-english-locales %}) — badge status/priority grigi con `LANGUAGE_CODE=it`.
-- [Fix: template email submitter sempre su updated (PR #1358)]({% post_url 2026-07-29-fix-submitter-email-template-status %}) — `template_prefix` basato sullo stato reale.
-- [Docs: email settings per OAuth (PR #1352)]({% post_url 2026-07-24-docs-email-settings-oauth %}) — documentazione OAuth/IMAP e debug.
-- [Docs: feature on-hold per escalation (PR #1340)]({% post_url 2026-05-08-document-on-hold-feature %}) — documenta la funzionalità di sospensione ticket.
-
-### 2024
-
-- [Issue: refactor label FOLLOW_UP in settings (Issue #1220)]({% post_url 2024-12-04-refactor-followup-label-settings %}) — allineare `FOLLOW_UP` vs `FOLLOWUP`.
-- [Fix: ticket DUPLICATE spostati in closed & resolved (PR #1207)]({% post_url 2024-09-16-duplicate-status-closed-resolved %}) — risolve #1205.
-- [Issue: dashboard e stato Duplicate nei ticket aperti (Issue #1205)]({% post_url 2024-09-12-dashboard-duplicate-status-open-tickets %}) — duplicate resta in "open tickets assigned to you".
-- [Chore: aggiornamento upgrade.rst (PR #1203)]({% post_url 2024-09-06-update-upgrade-rst %}) — rimozione `bootstrap5form`, note upgrade 0.3 → 0.4.
-
-> Tutti i post sono taggati `django-helpdesk` e `open-source`.
+- [PR #1371 — fix: key status/priority badge color by stable id](https://github.com/django-helpdesk/django-helpdesk/pull/1371) — colori ancorati a ID stabile, nuove settings `HELPDESK_TICKET_STATUS_CSS_CLASSES`.
+- [PR #1370 — feat: expose all sortable columns in ticket list sorting filter](https://github.com/django-helpdesk/django-helpdesk/pull/1370) — estende dropdown con `id`, `last_followup`, `due_date` e altri.
+- [Issue #1369 — Sorting dropdown on /tickets/ by Last Followup](https://github.com/django-helpdesk/django-helpdesk/issues/1369) — richiesta feature che ha portato alla PR #1370.
+- [Issue #1367 — Reopened tickets use updated email templates](https://github.com/django-helpdesk/django-helpdesk/issues/1367) — bug: fallback a `updated_*` per `REOPENED_STATUS`.
+- [PR #1362 — Fix ticket status rendering without translations](https://github.com/django-helpdesk/django-helpdesk/pull/1362) — risolve #1361.
+- [Issue #1361 — Status badge colors break on non-English locales](https://github.com/django-helpdesk/django-helpdesk/issues/1361) — badge grigi con `LANGUAGE_CODE=it`.
+- [PR #1358 — Fix submitter email template always using updated](https://github.com/django-helpdesk/django-helpdesk/pull/1358) — `template_prefix` basato sullo stato reale.
+- [PR #1352 — Docs, added email settings for oauth](https://github.com/django-helpdesk/django-helpdesk/pull/1352) — documentazione OAuth/IMAP e debug.
+- [PR #1340 — Document on hold feature for ticket escalations](https://github.com/django-helpdesk/django-helpdesk/pull/1340) — documenta la funzionalità di sospensione ticket.
+- [Issue #1220 — Trivial refactor in settings.py about followup label](https://github.com/django-helpdesk/django-helpdesk/issues/1220) — allineare `FOLLOW_UP` vs `FOLLOWUP`.
+- [PR #1207 — DUPLICATE_STATUS Tickets moved to closed & resolved ones](https://github.com/django-helpdesk/django-helpdesk/pull/1207) — risolve #1205.
+- [Issue #1205 — Dashboard, open tickets assigned to you and Duplicate status](https://github.com/django-helpdesk/django-helpdesk/issues/1205) — duplicate resta in open tickets.
+- [PR #1203 — Update upgrade.rst](https://github.com/django-helpdesk/django-helpdesk/pull/1203) — rimozione `bootstrap5form`, note upgrade 0.3 → 0.4.
 
 ---
 

@@ -4,7 +4,7 @@ Aggiorna contrib.md con i contributi pubblici di @buoncri via GitHub Search API.
 
 - Query: author:buoncri is:public (solo repo pubblici)
 - Raggruppa per repository_url, genera panoramica + dettaglio
-- Preserva esattamente la sezione ## django-helpdesk dal file esistente
+- Genera la sezione ## django-helpdesk in modo statico con link diretti GitHub (nessun post locale)
 - Se il file rigenerato è identico, exit 0 senza scrivere
 """
 from __future__ import annotations
@@ -154,24 +154,27 @@ REPO_DESC = {
 }
 
 
-def extract_django_section(text: str) -> str:
-    start_marker = "## django-helpdesk"
-    end_marker = "## Altri contributi pubblici"
-    start = text.find(start_marker)
-    end = text.find(end_marker)
-    if start == -1:
-        print("WARN: marker ## django-helpdesk non trovato, uso fallback vuoto", file=sys.stderr)
-        return ""
-    if end == -1:
-        section = text[start:].rstrip()
-    else:
-        section = text[start:end].rstrip()
-    # Rimuovi separatore finale "---" che precede "## Altri" (lo rigeneriamo noi)
-    section = section.strip()
-    # se finisce con "---", rimuovilo con eventuale whitespace
-    if section.endswith("---"):
-        section = section[: -len("---")].rstrip()
-    return section.strip()
+DJANGO_SECTION_STATIC = """## django-helpdesk {#django-helpdesk}
+
+Contributi al progetto open-source [django-helpdesk/django-helpdesk](https://github.com/django-helpdesk/django-helpdesk) — helpdesk/ticketing per Django. I miei contributi sono consultabili direttamente su GitHub — dettaglio storico rimosso, vedi link sotto (nessun post locale).
+
+- [PR #1371 — fix: key status/priority badge color by stable id](https://github.com/django-helpdesk/django-helpdesk/pull/1371) — colori ancorati a ID stabile, nuove settings `HELPDESK_TICKET_STATUS_CSS_CLASSES`.
+- [PR #1370 — feat: expose all sortable columns in ticket list sorting filter](https://github.com/django-helpdesk/django-helpdesk/pull/1370) — estende dropdown con `id`, `last_followup`, `due_date` e altri.
+- [Issue #1369 — Sorting dropdown on /tickets/ by Last Followup](https://github.com/django-helpdesk/django-helpdesk/issues/1369) — richiesta feature che ha portato alla PR #1370.
+- [Issue #1367 — Reopened tickets use updated email templates](https://github.com/django-helpdesk/django-helpdesk/issues/1367) — bug: fallback a `updated_*` per `REOPENED_STATUS`.
+- [PR #1362 — Fix ticket status rendering without translations](https://github.com/django-helpdesk/django-helpdesk/pull/1362) — risolve #1361.
+- [Issue #1361 — Status badge colors break on non-English locales](https://github.com/django-helpdesk/django-helpdesk/issues/1361) — badge grigi con `LANGUAGE_CODE=it`.
+- [PR #1358 — Fix submitter email template always using updated](https://github.com/django-helpdesk/django-helpdesk/pull/1358) — `template_prefix` basato sullo stato reale.
+- [PR #1352 — Docs, added email settings for oauth](https://github.com/django-helpdesk/django-helpdesk/pull/1352) — documentazione OAuth/IMAP e debug.
+- [PR #1340 — Document on hold feature for ticket escalations](https://github.com/django-helpdesk/django-helpdesk/pull/1340) — documenta la funzionalità di sospensione ticket.
+- [Issue #1220 — Trivial refactor in settings.py about followup label](https://github.com/django-helpdesk/django-helpdesk/issues/1220) — allineare `FOLLOW_UP` vs `FOLLOWUP`.
+- [PR #1207 — DUPLICATE_STATUS Tickets moved to closed & resolved ones](https://github.com/django-helpdesk/django-helpdesk/pull/1207) — risolve #1205.
+- [Issue #1205 — Dashboard, open tickets assigned to you and Duplicate status](https://github.com/django-helpdesk/django-helpdesk/issues/1205) — duplicate resta in open tickets.
+- [PR #1203 — Update upgrade.rst](https://github.com/django-helpdesk/django-helpdesk/pull/1203) — rimozione `bootstrap5form`, note upgrade 0.3 → 0.4."""
+
+
+def get_django_section() -> str:
+    return DJANGO_SECTION_STATIC
 
 
 def tipo_for_group(items: list[dict]) -> str:
@@ -208,14 +211,7 @@ def generate_contrib(groups: dict[str, list[dict]], total_count: int, date_str: 
     singles_sorted = sorted(singles, key=lambda kv: kv[0].lower())
     singles_sorted = sorted(singles_sorted, key=lambda kv: single_latest(kv), reverse=True)
 
-    django_section = extract_django_section(existing_text)
-    if not django_section:
-        # fallback hardcoded: keep minimal placeholder (should not happen)
-        django_section = (
-            "## django-helpdesk {#django-helpdesk}\n\n"
-            "Contributi al progetto open-source [django-helpdesk/django-helpdesk]"
-            "(https://github.com/django-helpdesk/django-helpdesk) — helpdesk/ticketing per Django.\n"
-        )
+    django_section = get_django_section()
 
     parts: list[str] = []
     parts.append(FRONT_MATTER)
