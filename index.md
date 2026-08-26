@@ -23,7 +23,7 @@ Questo spazio è un semplice raccoglitore di appunti, esperimenti e soluzioni Op
 
 Lunga vita e prosperità 🖖
 
-Benvenuto nel mio spazio personale: qui condivido idee ed esperienze su soluzioni software Open Source per Consorzi di Bonifica e contributi alla community Django. Dai un'occhiata ai miei [contributi open-source](/contrib/) — oltre 60 tra PR e issue pubblici su progetti Django e non solo.
+Benvenuto nel mio spazio personale: qui condivido idee ed esperienze su soluzioni software Open Source  e contributi.
 
 ---
 
