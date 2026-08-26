@@ -24,9 +24,3 @@ Questo spazio è un semplice raccoglitore di appunti, esperimenti e soluzioni Op
 Lunga vita e prosperità 🖖
 
 Benvenuto nel mio spazio personale: qui condivido idee ed esperienze su soluzioni software Open Source  e contributi.
-
----
-
-## Contributi open-source
-
-> I 13 post dettagliati su django-helpdesk sono ora in [/contrib/#django-helpdesk](/contrib/#django-helpdesk).
