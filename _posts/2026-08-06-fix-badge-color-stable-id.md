@@ -6,7 +6,7 @@ categories: [django-helpdesk, open-source]
 tags: [django, helpdesk, contribuzione]
 author: buoncri
 ---
-
+{% raw %}
 Contributo a [django-helpdesk/django-helpdesk](https://github.com/django-helpdesk/django-helpdesk) — **Pull Request #1371**.
 
 - **Link GitHub:** [PR #1371 — fix: key status/priority badge color by stable id, not localized label](https://github.com/django-helpdesk/django-helpdesk/pull/1371)
@@ -31,3 +31,4 @@ La PR sposta la logica a una singola source of truth lato server, chiave su **st
 ## Impatto
 
 Badge consistenti in tutte le lingue e per status custom, configurabili senza toccare il frontend. Risolve definitivamente la classe di bug segnalata in #1361/#1363.
+{% endraw %}
