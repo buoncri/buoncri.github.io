@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pubblicazione del repository IIoT Irrigation Telecontrol"
+title: "IIoT Irrigation Telecontrol"
 date: 2026-03-11 10:00:00 +0100
 categories: iiot open-source docker irrigation bim
 ---
