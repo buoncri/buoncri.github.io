@@ -23,13 +23,13 @@ Questo spazio è un semplice raccoglitore di appunti, esperimenti e soluzioni Op
 
 Lunga vita e prosperità 🖖
 
-Benvenuto nel mio spazio personale: qui condivido idee ed esperienze su soluzioni software Open Source per Consorzi di Bonifica e contributi alla community Django. Dai un'occhiata ai miei [contributi open-source](/contrib/) — oltre 300 tra PR e issue su progetti Django e non solo.
+Benvenuto nel mio spazio personale: qui condivido idee ed esperienze su soluzioni software Open Source per Consorzi di Bonifica e contributi alla community Django. Dai un'occhiata ai miei [contributi open-source](/contrib/) — oltre 60 tra PR e issue pubblici su progetti Django e non solo.
 
 ---
 
 ## Contributi open-source
 
-Raccolta dei miei contributi pubblici — da [django-helpdesk](/contrib/#django-helpdesk) a progetti interni come portoneniu e djangocbutemplate.  
-Vai alla pagina dedicata: **[Contributi →](/contrib/)** — 335+ PR/issue indicizzati da GitHub.
+Raccolta dei miei contributi open-source — da [django-helpdesk](/contrib/#django-helpdesk) ad altri progetti della community.  
+Vai alla pagina dedicata: **[Contributi →](/contrib/)** — 64 PR/issue pubblici indicizzati da GitHub.
 
 > I 13 post dettagliati su django-helpdesk sono ora in [/contrib/#django-helpdesk](/contrib/#django-helpdesk).

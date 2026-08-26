@@ -6,18 +6,15 @@ permalink: /contrib/
 
 Raccolta dei miei contributi pubblici su GitHub — PR, issue e discussioni a cui ho partecipato come autore. Repo principale: [github.com/buoncri](https://github.com/buoncri). Per il codice più recente vedi anche [tutti i repository](https://github.com/buoncri?tab=repositories).
 
-> **Nota:** elenco raggruppato per repository, generato il **2026-08-26** via GitHub Search API (`search/issues?q=author:buoncri`, 335 risultati totali). I conteggi includono PR e issue. Sotto trovi dettaglio per i repo con più attività; i singoli contributi minori sono in coda in "Altri".
+> **Nota:** elenco raggruppato per repository, generato il **2026-08-26** via GitHub Search API (`search/issues?q=author:buoncri is:public`, 64 risultati totali — solo repository pubblici). I conteggi includono PR e issue. Sotto trovi dettaglio per i repo con più attività; i singoli contributi minori sono in coda in "Altri".
 
 ## Panoramica
 
 | Repository | Contributi | Tipo |
 |---|---|---|
-| [buoncri/portoneniu](https://github.com/buoncri/portoneniu) | 152 | PR/issue — gestionale Django interno (formazione, istituzione) |
-| [buoncri/djangocbutemplate](https://github.com/buoncri/djangocbutemplate) | 114 | PR — template Django per pratiche Consorzio |
 | [django-helpdesk/django-helpdesk](https://github.com/django-helpdesk/django-helpdesk) | 13 | PR/issue esterni (dettaglio sotto) |
 | [buoncri/iiot-irrigation-telecontrol](https://github.com/buoncri/iiot-irrigation-telecontrol) | 9 | PR — piattaforma IIoT telecontrollo |
 | [waifung0207/ci_bootstrap_3](https://github.com/waifung0207/ci_bootstrap_3) | 9 | issue/PR (CodeIgniter, storico) |
-| [buoncri/intranet_cbu](https://github.com/buoncri/intranet_cbu) | 5 | PR/issue — intranet |
 | [kimai/kimai](https://github.com/kimai/kimai) | 5 | PR/issue — traduzioni it, calendario |
 | [scoumbourdis/grocery-crud](https://github.com/scoumbourdis/grocery-crud) | 4 | PR/issue — traduzioni, fix |
 | [buoncri/grocery-crud](https://github.com/buoncri/grocery-crud) | 2 | PR |
@@ -59,26 +56,6 @@ Contributi al progetto open-source [django-helpdesk/django-helpdesk](https://git
 
 Per non creare centinaia di post, qui sotto trovi i contributi raggruppati per repository con conteggio e 3–5 voci recenti/più rilevanti (titolo + link + stato). Lista completa su GitHub: `https://github.com/search?q=author%3Abuoncri&type=issues`.
 
-### [buoncri/portoneniu](https://github.com/buoncri/portoneniu) — 152
-
-Gestionale Django per Consorzio (formazione sicurezza sul lavoro, istituzione/uffici). Attività più intensa nel 2025–2026.
-
-- `2026-08-26` [closed] [feat(formazione): configurable compliance windows and grouped email digest](https://github.com/buoncri/portoneniu/pull/152)
-- `2026-08-26` [closed] [Refactor/formazione solo sicurezza su lavoro](https://github.com/buoncri/portoneniu/pull/151)
-- `2026-08-26` [closed] [refactor(formazione): narrow app to workplace-safety-only training](https://github.com/buoncri/portoneniu/pull/150)
-- `2026-08-25` [closed] [fix(formazione): FO validity window in compliance + route rename](https://github.com/buoncri/portoneniu/pull/149)
-- `2026-08-21` [closed] [refactor(formazione): remove per-column text search from prevenzione report](https://github.com/buoncri/portoneniu/pull/148)
-
-### [buoncri/djangocbutemplate](https://github.com/buoncri/djangocbutemplate) — 114
-
-Template Django per pratiche espropri, integrazione QGIS/Lizmap e DataBridge.
-
-- `2026-07-01` [closed] [New/ebingest](https://github.com/buoncri/djangocbutemplate/pull/114)
-- `2026-06-30` [closed] [fix: auto-heal stale Pratica.nome_pratica fallback names on save](https://github.com/buoncri/djangocbutemplate/pull/113)
-- `2026-06-30` [closed] [refactor(soggetto): enforce CF uniqueness, add model validation, extract TipoPersona](https://github.com/buoncri/djangocbutemplate/pull/112)
-- `2026-06-30` [closed] [Issue/varie](https://github.com/buoncri/djangocbutemplate/pull/111)
-- `2026-06-26` [closed] [Refactor/DS4 modelli base](https://github.com/buoncri/djangocbutemplate/pull/110)
-
 ### [buoncri/iiot-irrigation-telecontrol](https://github.com/buoncri/iiot-irrigation-telecontrol) — 9
 
 Piattaforma IIoT per telecontrollo impianti idrici (Docker Compose).
@@ -89,15 +66,15 @@ Piattaforma IIoT per telecontrollo impianti idrici (Docker Compose).
 - `2026-03-16` [closed] [Speckle](https://github.com/buoncri/iiot-irrigation-telecontrol/pull/6)
 - `2026-03-14` [closed] [feat: aggiorna configurazione dei segnalibri e dei widget per miglior…](https://github.com/buoncri/iiot-irrigation-telecontrol/pull/5)
 
-### [buoncri/intranet_cbu](https://github.com/buoncri/intranet_cbu) — 5
+### [waifung0207/ci_bootstrap_3](https://github.com/waifung0207/ci_bootstrap_3) — 9
 
-Intranet e pubblicazione Determine.
+Storico CodeIgniter — discussioni e PR 2015–2016.
 
-- `2025-06-06` [closed] [Sviluppo](https://github.com/buoncri/intranet_cbu/pull/5)
-- `2025-03-20` [closed] [Buoncri/issue1](https://github.com/buoncri/intranet_cbu/pull/4)
-- `2025-03-17` [closed] [Prima implementazione pubblicazione Determine](https://github.com/buoncri/intranet_cbu/pull/3)
-- `2025-03-11` [closed] [Spostamento repository](https://github.com/buoncri/intranet_cbu/issues/2)
-- `2025-03-11` [closed] [Aggiungere pubblicazione Determine dirigenziali su bonificaumbra.it](https://github.com/buoncri/intranet_cbu/issues/1)
+- `2016-07-05` [closed] [On model db (Gcrud and Base_model)](https://github.com/waifung0207/ci_bootstrap_3/issues/75)
+- `2016-05-27` [closed] [Report an interesting project to use with ci_bootstrap](https://github.com/waifung0207/ci_bootstrap_3/issues/68)
+- `2015-12-04` [closed] [form_builder lib](https://github.com/waifung0207/ci_bootstrap_3/issues/32)
+- `2015-11-20` [closed] [Update adminlte_helper.php](https://github.com/waifung0207/ci_bootstrap_3/pull/30)
+- `2015-10-29` [closed] [Grocery_CRUD_MultiSearch](https://github.com/waifung0207/ci_bootstrap_3/issues/19)
 
 ### [kimai/kimai](https://github.com/kimai/kimai) — 5
 
@@ -108,16 +85,6 @@ Time-tracking open-source — contributi traduzioni italiane e issue calendario.
 - `2020-07-29` [closed] [Improve calendar view with last activities](https://github.com/kimai/kimai/issues/1852)
 - `2020-03-10` [closed] [Italian translations update](https://github.com/kimai/kimai/pull/1538)
 - `2020-02-04` [closed] [Missing italian translations files added.](https://github.com/kimai/kimai/pull/1437)
-
-### [waifung0207/ci_bootstrap_3](https://github.com/waifung0207/ci_bootstrap_3) — 9
-
-Storico CodeIgniter — discussioni e PR 2015–2016.
-
-- `2016-07-05` [closed] [On model db (Gcrud and Base_model)](https://github.com/waifung0207/ci_bootstrap_3/issues/75)
-- `2016-05-27` [closed] [Report an interesting project to use with ci_bootstrap](https://github.com/waifung0207/ci_bootstrap_3/issues/68)
-- `2015-12-04` [closed] [form_builder lib](https://github.com/waifung0207/ci_bootstrap_3/issues/32)
-- `2015-11-20` [closed] [Update adminlte_helper.php](https://github.com/waifung0207/ci_bootstrap_3/pull/30)
-- `2015-10-29` [closed] [Grocery_CRUD_MultiSearch](https://github.com/waifung0207/ci_bootstrap_3/issues/19)
 
 ### [scoumbourdis/grocery-crud](https://github.com/scoumbourdis/grocery-crud) — 4
 

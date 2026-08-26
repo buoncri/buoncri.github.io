@@ -29,6 +29,13 @@ plugins:
   - jekyll-github-metadata
   - jekyll-seo-tag
 
+header_pages:
+  - about.md
+  - contrib.md
+  - progetti.md
+  - collegamenti.md
+  - index.md
+
 titles_from_headings:
   enabled:     true
   strip_title: true
