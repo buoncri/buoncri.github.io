@@ -6,14 +6,14 @@ permalink: /contrib/
 
 Raccolta dei miei contributi pubblici su GitHub — PR, issue e discussioni a cui ho partecipato come autore. Repo principale: [github.com/buoncri](https://github.com/buoncri). Per il codice più recente vedi anche [tutti i repository](https://github.com/buoncri?tab=repositories).
 
-> **Nota:** elenco raggruppato per repository, generato il **2026-08-27** via GitHub Search API (`search/issues?q=author:buoncri is:public`, 64 risultati totali — solo repository pubblici). I conteggi includono PR e issue. Sotto trovi dettaglio per i repo con più attività; i singoli contributi minori sono in coda in "Altri".
+> **Nota:** elenco raggruppato per repository, generato il **2026-08-28** via GitHub Search API (`search/issues?q=author:buoncri is:public`, 65 risultati totali — solo repository pubblici). I conteggi includono PR e issue. Sotto trovi dettaglio per i repo con più attività; i singoli contributi minori sono in coda in "Altri".
 
 ## Panoramica
 
 | Repository | Contributi | Tipo |
 |---|---|---|
 | [django-helpdesk/django-helpdesk](https://github.com/django-helpdesk/django-helpdesk) | 13 | PR/issue esterni (dettaglio sotto) |
-| [buoncri/iiot-irrigation-telecontrol](https://github.com/buoncri/iiot-irrigation-telecontrol) | 9 | PR — piattaforma IIoT telecontrollo |
+| [buoncri/iiot-irrigation-telecontrol](https://github.com/buoncri/iiot-irrigation-telecontrol) | 10 | PR — piattaforma IIoT telecontrollo |
 | [waifung0207/ci_bootstrap_3](https://github.com/waifung0207/ci_bootstrap_3) | 9 | issue/PR (CodeIgniter, storico) |
 | [kimai/kimai](https://github.com/kimai/kimai) | 5 | PR/issue — traduzioni it, calendario |
 | [scoumbourdis/grocery-crud](https://github.com/scoumbourdis/grocery-crud) | 4 | PR/issue — traduzioni, fix |
@@ -49,15 +49,15 @@ Contributi al progetto open-source [django-helpdesk/django-helpdesk](https://git
 
 Per non creare centinaia di post, qui sotto trovi i contributi raggruppati per repository con conteggio e 3–5 voci recenti/più rilevanti (titolo + link + stato). Lista completa su GitHub: `https://github.com/search?q=author%3Abuoncri&type=issues`.
 
-### [buoncri/iiot-irrigation-telecontrol](https://github.com/buoncri/iiot-irrigation-telecontrol) — 9
+### [buoncri/iiot-irrigation-telecontrol](https://github.com/buoncri/iiot-irrigation-telecontrol) — 10
 
 Piattaforma IIoT per telecontrollo impianti idrici (Docker Compose).
 
+- `2026-08-28` [closed] [chore: sostituisci dockge con dockhand come stack manager](https://github.com/buoncri/iiot-irrigation-telecontrol/pull/10)
 - `2026-03-18` [closed] [feat: aggiungi supporto per nuovi servizi multimediali in assistenza …](https://github.com/buoncri/iiot-irrigation-telecontrol/pull/9)
 - `2026-03-18` [closed] [Debug](https://github.com/buoncri/iiot-irrigation-telecontrol/pull/8)
 - `2026-03-18` [closed] [Debug](https://github.com/buoncri/iiot-irrigation-telecontrol/pull/7)
 - `2026-03-16` [closed] [Speckle](https://github.com/buoncri/iiot-irrigation-telecontrol/pull/6)
-- `2026-03-14` [closed] [feat: aggiorna configurazione dei segnalibri e dei widget per miglior…](https://github.com/buoncri/iiot-irrigation-telecontrol/pull/5)
 
 ### [waifung0207/ci_bootstrap_3](https://github.com/waifung0207/ci_bootstrap_3) — 9
 
