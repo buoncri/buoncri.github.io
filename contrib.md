@@ -6,7 +6,7 @@ permalink: /contrib/
 
 Raccolta dei miei contributi pubblici su GitHub — PR, issue e discussioni a cui ho partecipato come autore. Repo principale: [github.com/buoncri](https://github.com/buoncri). Per il codice più recente vedi anche [tutti i repository](https://github.com/buoncri?tab=repositories).
 
-> **Nota:** elenco raggruppato per repository, generato il **2026-08-30** via GitHub Search API (`search/issues?q=author:buoncri is:public`, 65 risultati totali — solo repository pubblici). I conteggi includono PR e issue. Sotto trovi dettaglio per i repo con più attività; i singoli contributi minori sono in coda in "Altri".
+> **Nota:** elenco raggruppato per repository, generato il **2026-08-31** via GitHub Search API (`search/issues?q=author:buoncri is:public`, 65 risultati totali — solo repository pubblici). I conteggi includono PR e issue. Sotto trovi dettaglio per i repo con più attività; i singoli contributi minori sono in coda in "Altri".
 
 ## Panoramica
 
